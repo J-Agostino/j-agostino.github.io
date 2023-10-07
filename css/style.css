@@ -66,6 +66,10 @@ p{
 }
 
 
+a:visited{
+    color: yellowgreen;
+}
+
 
 /* Styles for about page */
 
