@@ -316,4 +316,37 @@ li  p {
 
 
 
+/* || RESPONSIVE */
+
+@media screen and (max-width: 576px) {
+    html {
+        width: 100vw;
+    }
+    
+    header {
+        width: 100vw;
+    }
+    body {
+        
+        background-color: #2a752b;
+        
+    }
+
+    main {
+        margin: 0;
+        
+    }
+
+    section {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        overflow: hidden;
+    }
+    
+    ul {
+        padding-left: 0;
+        border-style: none;
+    }
+}
 
